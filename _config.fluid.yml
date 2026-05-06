@@ -1,0 +1,27 @@
+# 站点头部
+navbar:
+  blog_title: 我的知识库 # 您的网站名称
+  logo: /img/logo.png    # 可替换为您的logo路径
+
+# 首页
+index:
+  banner_height: 60      # 横幅高度
+  post_url_target: _self
+  post_style: card       # 关键设置：文章样式为“卡片”
+  post_order_by: date    # 文章排序：按日期
+  post_order: -1         # 文章顺序：-1为倒序（最新在前）
+
+# 页面
+pages:
+  - title: 归档
+    url: archives
+    icon: icon-iconfont-archive
+  - title: 分类
+    url: categories
+    icon: icon-iconfont-category
+  - title: 标签
+    url: tags
+    icon: icon-iconfont-tag
+  - title: 关于
+    url: about
+    icon: icon-iconfont-about
